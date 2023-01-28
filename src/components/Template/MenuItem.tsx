@@ -11,7 +11,7 @@ interface MenuItemProps {
 export default function MenuItem(props: MenuItemProps) {
   const renderLink = () => (
     <a
-      className={`flex flex-col justify-center items-center h-20 w-20 text-gray-600 ${props.className}`}
+      className={`flex flex-col justify-center items-center h-20 w-20 dark:text-gray-200 ${props.className}`}
     >
       {props.icon}
 
@@ -20,7 +20,10 @@ export default function MenuItem(props: MenuItemProps) {
   );
 
   return (
-    <li onClick={props.onClink} className="hover:bg-gray-100 cursor-pointer">
+    <li
+      onClick={props.onClink}
+      className="hover:bg-gray-100 cursor-pointer dark:hover:bg-gray-800"
+    >
       {props.url ? (
         <Link href={props.url} legacyBehavior>
           {renderLink()}
