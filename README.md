@@ -34,3 +34,20 @@ Apesar de ser totalmente customizável, por padrão, vem com algumas funcionalid
 Basta acessar clicar <a href="https://admin-template-xi.vercel.app/">aqui</a>.
 
 <br>
+
+## Fotos
+
+<br>
+
+<p>Tela de Login / Cadastro</p>
+<img src="img/login.png">
+
+<br>
+
+<p>Tela Principal (modo light)</p>
+<img src="img/home-light.png">
+
+<br>
+
+<p>Tela Principal (modo dark)</p>
+<img src="img/home-dark.png">
