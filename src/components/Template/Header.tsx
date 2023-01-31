@@ -15,7 +15,7 @@ export default function Header(props: HeaderProps) {
     <div className="flex">
       <Title title={props.title} subtitle={props.subtitle} />
       <div className="flex flex-grow justify-end items-center">
-        <ButtonChangeTheme theme={theme} changeTheme={changeTheme} />
+        <ButtonChangeTheme theme={theme!} changeTheme={changeTheme!} />
         <Avatar />
       </div>
     </div>
