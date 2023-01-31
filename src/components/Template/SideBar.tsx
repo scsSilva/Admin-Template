@@ -1,9 +1,12 @@
+import useAppData from "../../data/hook/useAppData";
 import useAuthData from "../../data/hook/useAuthData";
 import { AdjustmentsIcon, BellIcon, HomeIcon, LogoutIcon } from "../Icons";
+import ButtonChangeTheme from "./ButtonChangeTheme";
 import Logo from "./Logo";
 import MenuItem from "./MenuItem";
 
 export default function SideBar() {
+  const { theme, changeTheme } = useAppData();
   const { logout } = useAuthData();
 
   return (
@@ -13,6 +16,13 @@ export default function SideBar() {
       </div>
 
       <ul className="flex-grow">
+        <div className="lg:hidden md:hidden mt-5 mb-5 flex items-center justify-center">
+          <ButtonChangeTheme
+            visible={true}
+            theme={theme!}
+            changeTheme={changeTheme!}
+          />
+        </div>
         <MenuItem url="/" text="Início" icon={HomeIcon} />
         <MenuItem url="/settings" text="Configurações" icon={AdjustmentsIcon} />
         <MenuItem url="/notifications" text="Notificações" icon={BellIcon} />
