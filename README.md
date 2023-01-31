@@ -4,13 +4,16 @@
 
 <br>
 
-## 📃 Funcionalidades
+## 📃 Funcionalidades (Visuais e Técnicas)
 
-Apesar de ser totalmente customizável, por padrão, vem com algumas funcionalidades básicas. Entre elas:
+Apesar de ser totalmente customizável, por padrão, vem com algumas funcionalidades. Entre elas:
 
 <ul>
   <li>Login e cadastro de usuários;</li>
-  <li>Alteração de tema (light/dark).</li>
+  <li>Tela de Login customizada;</li>
+  <li>Alteração de tema (light/dark);</li>
+  <li>Cookies de autenticação;</li>
+  <li>Persistência dos dados.</li>
   <br>
 </ul>
 
@@ -26,27 +29,8 @@ Apesar de ser totalmente customizável, por padrão, vem com algumas funcionalid
 
 <br>
 
-## 💻 Pré-requisitos
+## ☁ Visualizar o Projeto
 
-Antes de executar o FrontEnd da nossa aplicação, atente-se aos requisitos:
-
-- Ter instalada a versão mais recente do `<Node.js e Yarn>`
+Basta acessar clicar <a href="https://admin-template-xi.vercel.app/">aqui</a>.
 
 <br>
-
-## 🚀 Executando o Projeto
-
-Para rodar o projeto, siga estas etapas:
-
-1. Instale os pacotes<br>
-
-```
->> yarn install
-```
-
-2. Crie um arquivo <b>.env</b> e copie o conteúdo do arquivo <b>.env.example</b>
-3. Agora, é só executar o comando:<br>
-
-```
->> yarn dev
-```
