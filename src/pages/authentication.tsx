@@ -41,7 +41,7 @@ export default function Authentication() {
         />
       </div>
       <div className="m-10 w-full md:w-1/2 lg:w-1/3">
-        <h1 className="text-3xl font-bold mb-5">
+        <h1 className="text-3xl font-bold mb-5 sm:text-gray-700">
           {mode == "login"
             ? "Entre com a sua conta"
             : "Cadastre-se na plataforma"}
