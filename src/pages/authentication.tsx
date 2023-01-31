@@ -21,9 +21,9 @@ export default function Authentication() {
   const submit = async () => {
     try {
       if (mode == "login") {
-        await loginEmailAndPassword(email, password);
+        await loginEmailAndPassword!(email, password);
       } else {
-        await signUpEmailAndPassword(email, password);
+        await signUpEmailAndPassword!(email, password);
       }
     } catch (err) {
       const error = err as firebase.FirebaseError;
